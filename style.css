@@ -1,0 +1,90 @@
+
+#inputField {							/*Hakukenttä*/
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  background-color: #eef3ee;
+  width: 200px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  left: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position: absolute;
+  top: 120px;
+  border-radius: 10px;
+	}
+#myUl {						/*hakutulokset */
+	width: 110px;
+    height: 110px;
+    overflow: scroll;
+	}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  width: 200px;
+}
+
+#grid-container {						/* Gridin koko, 4 riviä*/
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #FAFAFA;
+  padding-top: 1px;
+}
+#grid-container2 {						/* Ylemmän gridin jossa on juna,lähtöasema, pääteasema, saapuu*/
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #FAFAFA;
+  padding-top: 10px solid #eeeeee;
+}
+.grid-item {							/*Yhden gridin koko */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+  padding-left: 90px;
+  font-size: 20px;
+  text-align: left;
+  border-top: 1px solid	#eeeeee;
+}
+.grid-item2 {							/*grid-container2 gridien asetukset */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+  padding-left: 90px;
+  font-size: 17px;
+  text-align: left;
+  border-top: 1px solid	#eeeeee;
+}
+#mainWindow{							/*Pääikkuna*/
+	position: absolute;
+	height: 1100px;
+    width: 900px;
+	left: 150px;
+	top: 10px;
+	border: 1px solid #ddd;
+}
+#title{									/* Vihreä divi ylhäällä*/
+	background-color: #56a319;
+	box-shadow: 1px 5px 20px #888888;
+	height: 50px;
+}
+
+
+#container{								/* Grid-containerien parent*/
+	position:absolute;
+	left:20px;
+	top:200px;
+	
+}
+#searchDiv{								/* */
+   width: 300px;
+   height: 200px;
+   overflow: scroll;
+   position: absolute;
+   top: 170px;
+   visibility: hidden; 
+}
