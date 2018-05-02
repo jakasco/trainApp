@@ -1,7 +1,7 @@
 {
   "name": "cha",
   "version": "1.0.0",
-  "description": "chatroom",
+  "description": "trainapp",
   "main": "database.js",
   "scripts": {
     "start": "node database"
