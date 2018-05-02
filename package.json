@@ -1,0 +1,17 @@
+{
+  "name": "cha",
+  "version": "1.0.0",
+  "description": "chatroom",
+  "main": "database.js",
+  "scripts": {
+    "start": "node database"
+  },
+  "author": "kassu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-mariadb": "^0.1.1",
+    "request": "^2.85.0",
+    "url": "^0.11.0"
+  }
+}
